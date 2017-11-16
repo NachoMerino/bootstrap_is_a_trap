@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap Version 3.3.7</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- logo -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#makedown">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a id="logo" class="navbar-brand" href="index.html">LOGO <!--<img src="../img/admiral-ackbar.jpg" alt="">--></a>
+      </div>
+      <!-- menu items -->
+      <div class="collapse navbar-collapse" id="makedown">
+        <ul class="nav navbar-nav">
+          <li><a href="#">BOOTSTRAP</a></li>
+          <li><a href="#">IT'S</a></li>
+          <li><a href="#">A</a></li>
+          <!-- DropDown -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">TRAP<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">TRAP</a></li>
+              <li><a href="#">TRAP</a></li>
+              <li><a href="#">TRAP</a></li>
+              <li><a href="#">TRAP</a></li>
+              <li><a href="#">TRAP</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Right Align -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">REGISTER</a></li>
+          <li><a href="#">LOGIN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- carrusel image viewer -->
+  <div id="mycarousel" class="container">
+    <div id="myslider" class="carousel slide" target-ride="carousel">
+      <!-- indicator for dot nov -->
+      <ol class="carousel-indicators">
+        <li data-target="#myslider" data-slide-to="0" class="active"></li>
+        <li data-target="#myslider" data-slide-to="1"></li>
+        <li data-target="#myslider" data-slide-to="2"></li>
+      </ol>
+      <!-- wrapper for slides, this is where all of ours slides will go -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div id="jumbo1" class="jumbotron">
+            <div class="container">
+              <h1>I am a Fender Stratocaster!</h1>
+              <p>The Fender Stratocaster is a model of electric guitar designed in 1954 by Leo Fender, Bill Carson, George Fullerton, and Freddie Tavares. The Fender Musical Instruments Corporation has continuously manufactured the Stratocaster from 1954 to the present. It is a double-cutaway guitar, with an extended top "horn" shape for balance. Along with the Gibson Les Paul, it is one of the most-often emulated electric guitar shapes. "Stratocaster" and "Strat" are trademark terms belonging to Fender.</p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+          </div>
+          <div class="carousel-caption">
+            <h3>Fender Stratocaster</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div id="jumbo2" class="jumbotron">
+            <div class="container">
+              <h1>I am a ADAC Boat!</h1>
+              <p>A boat is a watercraft of a large range of sizes designed to float, plane, work or travel on water. Small boats are typically found on inland waterways (e.g. rivers and lakes) or in protected coastal areas. However, boats such as the whaleboat were designed for operation as a ship in an offshore environment. In modern naval terms, a boat is a vessel small enough to be carried aboard another vessel (a ship). An older tradition is that a ship has a weather deck fully enclosing the hull space, while a boat lacks a full weather deck; this is suggested as the reason why submarines are referred to as 'boats' rather than 'ships', as a cylindrical hull has interior decks but no weatherdeck. Another definition is a vessel that can be lifted out of the water. Some definitions do not make a distinction in size, as bulk freighters 1,000 feet (300 m) long on the Great Lakes are called oreboats. Ships are generally distinguished from boats based on their larger size, shape and cargo or passenger capacity.</p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+          </div>
+          <div class="carousel-caption">
+            <h3>ADAC Boat</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div id="jumbo3" class="jumbotron">
+            <div class="container">
+              <h1>I am a great Savanna!</h1>
+              <p>A savanna or savannah is a mixed woodland grassland ecosystem characterised by the trees being sufficiently widely spaced so that the canopy does not close. The open canopy allows sufficient light to reach the ground to support an unbroken herbaceous layer consisting primarily of grasses.</p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+          </div>
+          <div class="carousel-caption">
+            <h3>Savanna</h3>
+          </div>
+        </div>
+      </div>
+      <!-- left carrousel controls -->
+      <a href="#myslider" class="left carousel-control" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+      <a href="#myslider" class="right carousel-control" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+    </div>
+  </div>
+  <!-- GRID -->
+  <div id="progressbar">
+    <h1>Progress Bars</h1>
+    <div class="progress">
+      <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+        <p>20%</p>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+        <p>40% Complete (success)</p>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-info progress-bar-striped  active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+        <p>50% Complete (info)</p>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+        <p>60% Complete (warning)</p>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+        <p>Free Space</p>
+      </div>
+      <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+        <p>Warning</p>
+      </div>
+      <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+        <p>Danger</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-md-4 col-lg-2">
+        <div class="thumbnail">
+          <a href="../img/grid1.jpg"><img src="../img/grid1.jpg" alt="1" class="img-thumbnail"></a>
+          <p class="caption">poor bunny</p>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-2">
+        <div class="thumbnail">
+          <a href="../img/grid2.jpg"><img src="../img/grid2.jpg" alt="1" class="img-thumbnail"></a>
+          <p class="caption">grass cow</p>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-2">
+        <div class="thumbnail">
+          <a href="../img/grid3.jpg"><img src="../img/grid3.jpg" alt="1" class="img-thumbnail"></a>
+          <p class="caption">katanabanana</p>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-2">
+        <div class="thumbnail">
+          <a href="../img/grid4.jpg"><img src="../img/grid4.jpg" alt="1" class="img-thumbnail"></a>
+          <p class="caption">tanzen frau</p>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-2">
+        <div class="thumbnail">
+          <a href="../img/grid5.jpg"><img src="../img/grid5.jpg" alt="1" class="img-thumbnail"></a>
+          <p class="caption">shotApple</p>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-2">
+        <div class="thumbnail">
+          <a href="../img/grid6.jpg"><img src="../img/grid6.jpg" alt="1" class="img-thumbnail"></a>
+          <p class="caption">Schmile!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="tabpanel">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+      <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+      <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <h3>HOME</h3>
+        <p>Some content.</p>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <h3>Menu 1</h3>
+        <p>Some content in menu 1.</p>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <h3>Menu 2</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+    </div>
+  </div>
+  <div id="buttons">
+    <div id="dropup">
+      <div class="dropup">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+          <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="dropupgroup">
+      <div class="btn-group dropup">
+        <button type="button" class="btn btn-default">Dropup</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+          <li><a href="#">Smartphone</a></li>
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+          <li><a href="#">Smartphone</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- <img src="http://cdn.collider.com/wp-content/uploads/admiral_ackbar_trap_obama_shepherd_fairey_poster.jpg"></img>-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
